@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Text Selector",
+    "version": "0.1.0",
+    "description": "Capture and store selected text from any webpage",
+    "action": {
+      "default_popup": "index.html",
+      "default_title": "Text Selector"
+    },
+    "permissions": ["activeTab", "scripting"],
+    "icons": {
+      "16": "icon-16.svg",
+      "48": "icon-48.svg",
+      "128": "icon-128.svg"
+    }
+  }
